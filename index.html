@@ -58,7 +58,7 @@
 
       <div class="flex-1"></div>
 
-      <!-- Recomendadas aparece solo al hacer scroll -->
+  
       <button id="header-recomendadas" class="opacity-0 transition-opacity duration-300 border border-white rounded-full px-3 py-1 text-xs sm:text-sm flex items-center space-x-1 whitespace-nowrap">
         <i class="fas fa-random"></i> <span>Aleatorio</span>
       </button>
@@ -66,7 +66,7 @@
 
     <main class="px-4 sm:px-6 pb-6 pt-14 max-w-7xl mx-auto">
 
-  <!-- Título y botón aleatorio -->
+
   <div class="flex justify-between items-center mb-3">
     <h1 id="main-title" class="text-3xl font-normal">Apple Tv+</h1>
     <button id="btn-recomendadas" class="border border-white rounded-full px-3 py-1 text-sm flex items-center">
@@ -74,10 +74,10 @@
     </button>
   </div>
 
-      <!-- Descripción -->
+  
       <p id="description" class="text-white text-base mb-4 max-w-xl leading-relaxed">
         Donde el arte se encuentra con el entretenimiento.
-Apple TV+ presenta contenido original, sofisticado y exclusivo. Producciones cuidadosamente creadas con los mejores talentos del cine y la televisión. Cada título, una experiencia visual de alto nivel.
+Apple TV+ presenta contenido original, sofisticado y exclusivo. Producciones cuidadosamente creadas con los mejores talentos del cine y la television. Cada titulo, una experiencia visual de alto nivel.
       </p>
 
       <!-- Total -->
@@ -87,7 +87,7 @@ Apple TV+ presenta contenido original, sofisticado y exclusivo. Producciones cui
         <div class="border-b border-white w-16"></div>
       </div>
 
-  <!-- Contenedor de carteles -->
+
   <div id="posters-grid" class="grid grid-cols-3 sm:grid-cols-[repeat(auto-fit,_minmax(140px,_1fr))] gap-3 mt-3">
     <!--PEGAR CONTENIDO AQUI ABAJO-->
 
@@ -150,7 +150,7 @@ Apple TV+ presenta contenido original, sofisticado y exclusivo. Producciones cui
 
     observer.observe(description);
 
-    // Función para mezclar elementos aleatoriamente
+
     function shuffle(array) {
       for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
